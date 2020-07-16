@@ -1,0 +1,6 @@
+{
+    "bpdts": {
+        "host": "https://bpdts-test-app.herokuapp.com",
+        "usersInCity": "/city/{city}/users"
+    }
+}

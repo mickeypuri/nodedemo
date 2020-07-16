@@ -1,0 +1,27 @@
+<h1>{{title}}</h1>
+
+{{# if hasResults}}
+
+        {{# each users}}
+
+        <div class="user">
+            <div class="user-details">
+                <div class="user-name">
+                    {{ this.first_name }}
+                    {{ this.last_name }}
+                </div>
+
+                <div class="user-email">
+                        {{ this.email }} 
+                </div>
+            </div>   
+        {{/each}}
+
+
+{{ else }}
+    {{# if error}}
+        <h3>An error occured, please retry</h3>
+    {{else}}
+        <h3>No users found</h3>
+    {{/if}}
+{{/if }}

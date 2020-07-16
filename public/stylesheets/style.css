@@ -6,3 +6,18 @@ body {
 a {
   color: #00B7FF;
 }
+
+.user-name {
+  width: 200px;
+}
+
+.user-details {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.user-email {
+  margin-left: 5em;
+}
+
