@@ -9,7 +9,6 @@ router.get('/:city', async function(req, res, next) {
   let hasResults = false;
   try {
     users = await bpdts.getUsersInCity(req.params.city);
-    console.log(users);
     if (users.length > 0) {
         hasResults = true;
     }
